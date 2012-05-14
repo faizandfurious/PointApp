@@ -24,5 +24,8 @@
 @property (strong, nonatomic) Node *node;
 @property (weak, nonatomic) IBOutlet UIButton *deleteNode;
 - (IBAction)deleteThisNode:(id)sender;
+- (void) selectedWith:(Node *)tempNode;
+- (void) drawWith:(Node *)tempNode;
+
 
 @end

@@ -15,6 +15,9 @@
 		A95B90DA152AAF9D006B9949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A95B90D9152AAF9D006B9949 /* AppDelegate.m */; };
 		A95B90DD152AAF9D006B9949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95B90DC152AAF9D006B9949 /* ViewController.m */; };
 		A95B90E0152AAF9D006B9949 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95B90DE152AAF9D006B9949 /* ViewController.xib */; };
+		A95B90EC152AB3AA006B9949 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = A95B90EB152AB3AA006B9949 /* Node.m */; };
+		A95B90F7152B34F8006B9949 /* originalNode.png in Resources */ = {isa = PBXBuildFile; fileRef = A95B90F5152B34F8006B9949 /* originalNode.png */; };
+		A95B90F8152B34F8006B9949 /* selectedNode.png in Resources */ = {isa = PBXBuildFile; fileRef = A95B90F6152B34F8006B9949 /* selectedNode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		A95B90C9152AAF9D006B9949 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A95B90CB152AAF9D006B9949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A95B90CD152AAF9D006B9949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A95B90D1152AAF9D006B9949 /* PointApp-Info.plist */ = {isa = PBXFileReference; path = "PointApp-Info.plist"; sourceTree = "<group>"; };
+		A95B90D1152AAF9D006B9949 /* PointApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PointApp-Info.plist"; sourceTree = "<group>"; };
 		A95B90D3152AAF9D006B9949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A95B90D5152AAF9D006B9949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A95B90D7152AAF9D006B9949 /* PointApp-Prefix.pch */ = {isa = PBXFileReference; path = "PointApp-Prefix.pch"; sourceTree = "<group>"; };
-		A95B90D8152AAF9D006B9949 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A95B90D7152AAF9D006B9949 /* PointApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PointApp-Prefix.pch"; sourceTree = "<group>"; };
+		A95B90D8152AAF9D006B9949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A95B90D9152AAF9D006B9949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A95B90DB152AAF9D006B9949 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A95B90DB152AAF9D006B9949 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A95B90DC152AAF9D006B9949 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A95B90DF152AAF9D006B9949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A95B90EA152AB3AA006B9949 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		A95B90EB152AB3AA006B9949 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		A95B90F5152B34F8006B9949 /* originalNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = originalNode.png; sourceTree = "<group>"; };
+		A95B90F6152B34F8006B9949 /* selectedNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedNode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,8 @@
 		A95B90BA152AAF9D006B9949 = {
 			isa = PBXGroup;
 			children = (
+				A95B90F5152B34F8006B9949 /* originalNode.png */,
+				A95B90F6152B34F8006B9949 /* selectedNode.png */,
 				A95B90CF152AAF9D006B9949 /* PointApp */,
 				A95B90C8152AAF9D006B9949 /* Frameworks */,
 				A95B90C6152AAF9D006B9949 /* Products */,
@@ -83,6 +92,8 @@
 				A95B90DC152AAF9D006B9949 /* ViewController.m */,
 				A95B90DE152AAF9D006B9949 /* ViewController.xib */,
 				A95B90D0152AAF9D006B9949 /* Supporting Files */,
+				A95B90EA152AB3AA006B9949 /* Node.h */,
+				A95B90EB152AB3AA006B9949 /* Node.m */,
 			);
 			path = PointApp;
 			sourceTree = "<group>";
@@ -151,6 +162,8 @@
 			files = (
 				A95B90D4152AAF9D006B9949 /* InfoPlist.strings in Resources */,
 				A95B90E0152AAF9D006B9949 /* ViewController.xib in Resources */,
+				A95B90F7152B34F8006B9949 /* originalNode.png in Resources */,
+				A95B90F8152B34F8006B9949 /* selectedNode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +177,7 @@
 				A95B90D6152AAF9D006B9949 /* main.m in Sources */,
 				A95B90DA152AAF9D006B9949 /* AppDelegate.m in Sources */,
 				A95B90DD152AAF9D006B9949 /* ViewController.m in Sources */,
+				A95B90EC152AB3AA006B9949 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
